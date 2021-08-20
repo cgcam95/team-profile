@@ -1,6 +1,6 @@
 const { TestWatcher } = require("jest");
 
-const Employee = requre("../lib/Employee");
+const Employee = require("../lib/Employee");
 
 test("creates a new employee object", () => {
     const employee = new Employee ('Camil', 1, 'camil@uconn.edu');
